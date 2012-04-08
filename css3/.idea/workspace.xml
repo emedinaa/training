@@ -22,28 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rotate.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2dtransforms/rotate.html">
+      <file leaf-file-name="transition1.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/transitions/transition1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.0833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scale.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2dtransforms/scale.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="383" selection-end="383" vertical-scroll-proportion="-8.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skew.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2dtransforms/skew.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.6086956">
+            <state line="16" column="54" selection-start="438" selection-end="438" vertical-scroll-proportion="0.8014842">
               <folding />
             </state>
           </provider>
@@ -69,14 +51,40 @@
         <option value="$PROJECT_DIR$/2dtransforms/rotate.html" />
         <option value="$PROJECT_DIR$/2dtransforms/scale.html" />
         <option value="$PROJECT_DIR$/2dtransforms/skew.html" />
+        <option value="$PROJECT_DIR$/2dtransforms/matrix.html" />
+        <option value="$PROJECT_DIR$/3dtransforms/index.html" />
+        <option value="$PROJECT_DIR$/3dtransforms/rotatey.html" />
+        <option value="$PROJECT_DIR$/transitions/transition.html" />
+        <option value="$PROJECT_DIR$/transitions/multiple_change.html" />
+        <option value="$PROJECT_DIR$/transitions/multiple_changes.html" />
+        <option value="$PROJECT_DIR$/transitions/transition1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="66" />
-    <option name="width" value="848" />
+    <option name="x" value="65" />
+    <option name="y" value="19" />
+    <option name="width" value="641" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>XmlHighlighting</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -126,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2dtransforms" />
+              <option name="myItemId" value="transitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -136,8 +144,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DEV\GITHUB\training\css3\3dtransforms" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -176,13 +193,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="66" width="848" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="65" y="19" width="641" height="735" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18928571" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23696682" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -249,6 +266,18 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="css3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="css3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2dtransforms/traslate.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -280,11 +309,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2dtransforms/skew.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.6086956">
+        <state line="8" column="25" selection-start="163" selection-end="163" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2dtransforms/matrix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="290" selection-end="290" vertical-scroll-proportion="0.5510204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3dtransforms/rotatey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="214" selection-end="214" vertical-scroll-proportion="0.26630434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3dtransforms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="293" selection-end="293" vertical-scroll-proportion="0.34057972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transitions/multiple_changes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="275" selection-end="275" vertical-scroll-proportion="0.3005566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transitions/transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="178" selection-end="178" vertical-scroll-proportion="0.48913044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transitions/transition1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="54" selection-start="438" selection-end="438" vertical-scroll-proportion="0.8014842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

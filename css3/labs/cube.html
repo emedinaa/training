@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        div#container
+        {
+            width: 1024px;
+            height: 500px;
+            background: #708090;
+            -webkit-perspective: 1000;
+            -webkit-perspective-origin: 50% 0px;
+        }
+        div#cube
+        {
+              width: 100%;
+              height: 100px;
+              position: absolute;
+              -webkit-transform:translate3d(512px,200px,0px);
+              -webkit-transform-style: preserve-3d;
+              -webkit-animation: spin 8s infinite linear;
+        }
+        div#face1
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg)
+            translateZ(-60px) ;
+            -webkit-animation: trans1 2s infinite linear;
+        }
+
+        div#face2
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg)
+            translateZ(60px);
+            -webkit-animation: trans2 2s infinite linear;
+        }
+        div#face3
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2)
+            translateZ(60px);
+            -webkit-animation: trans3 2s infinite linear;
+        }
+        div#face4
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg)
+            translateZ(-60px);
+            -webkit-animation: trans4 2s infinite linear;
+        }
+
+        div#face5
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg)
+            translateZ(60px);
+            -webkit-animation: trans5 2s infinite linear;
+        }
+
+        div#face6
+        {
+            width:100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.5;
+            position: absolute;
+            -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg)
+            translateZ(-60px) ;
+            -webkit-animation: trans6 2s infinite linear;
+        }
+
+        @-webkit-keyframes spin {
+              from { -webkit-transform:  rotateY(0deg) translate3d(462px,150px,0px);}
+              to   { -webkit-transform:  rotateY(-360deg) translate3d(462px,150px,0px); }
+            }
+        @-webkit-keyframes trans1 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(-60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(-50px); }
+            }
+        @-webkit-keyframes trans2 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(50px); }
+            }
+        @-webkit-keyframes trans3 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2)  translateZ(-60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2)  translateZ(-50px); }
+            }
+        @-webkit-keyframes trans4 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(-60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(-50px); }
+            }
+        @-webkit-keyframes trans5 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(-60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(-50px); }
+            }
+        @-webkit-keyframes trans6 {
+              from { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(-60px) ; }
+              to   { -webkit-transform:  scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(-50px); }
+            }
+
+        /* from { -webkit-transform: rotate3d(0,1,0,0deg); }*/
+    </style>
+    <title></title>
+</head>
+<body>
+    <div id="container">
+        <div id="cube">
+            <div id="face1">face 1</div>
+            <div id="face2">face 2</div>
+            <div id="face3">face 3</div>
+            <div id="face4">face 4</div>
+            <div id="face5">face 5</div>
+            <div id="face6">face 6</div>
+        </div>
+    </div>
+
+    <!--<div id="face2"></div>
+    <div id="face3"></div>
+    <div id="face4"></div>
+    <div id="face5"></div>
+    <div id="face6"></div> -->
+</body>
+</html>
